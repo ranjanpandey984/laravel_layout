@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+
+body {
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    height: 3000px;
+}
+
+.text-orange-600 {
+    color: #dd6b20;
+    /* color: rgba(221, 107, 32); */
+}
+
+.border-orange-600 {
+    border-color: #dd6b20;
+    /* border-color: rgba(221, 107, 32); */
+}
+
+.bg-orange-100 {
+    background-color: #fffaf0;
+    /* background-color: rgba(255, 250, 240); */
+}
+
+.fs-16 {
+    font-size: 20px;
+}
+
+/* nav {
+  box-shadow: 0 1px 3px grey;
+} */
+
+.banner {
+    height: 450px;
+    background-image: url(../images/mainbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-item::hover {
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.select-style {
+    border-radius: 5px;
+    border: 0;
+    padding: 2px;
+    width: 400px;
+}
+
+.input-style {
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    width: 400px;
+}
+
+/* https://basobaas.com/images/bg.webp */
+/* .banner {
+  height: 450px;
+  background: url(../images/bannner.png) !important;
+  background-size: 100% auto !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 15px;
+  border-radius: 10px;
+  margin-top: 5px;
+} */
+
+/* .banner-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+} */
